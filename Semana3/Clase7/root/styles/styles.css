@@ -1,0 +1,11 @@
+header {text-align: center;}
+h1,h2 { color:#005677;
+background-color:#C4C4C4;}
+span {font-weight: bold;}
+ul {line-height: 23px;}
+footer {text-align: center;
+    justify-content: center;
+    font-size: 19px;
+    color:white;
+background-color:#005677}
+.sinpuntos{list-style-type: none;}

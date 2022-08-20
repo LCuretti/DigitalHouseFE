@@ -1,0 +1,41 @@
+body{
+    font-family: Verdana;
+}
+
+header {
+  text-align: left;
+  background-image: url("../images/istockphoto-1285328124-1024x1024.jpg");
+
+  background-size: cover;
+}
+h1 {
+  text-align: center;
+}
+h1,
+h2 {
+  color: #005677;
+  background-color: #c4c4c4;
+}
+h3 {
+  color: #005677;
+  background-color: #c4c4c4;
+}
+
+span {
+  font-weight: bold;
+}
+
+ul {
+  line-height: 23px;
+}
+
+footer {
+  text-align: center;
+  font-size: 19px;
+  color: #ffffff;
+  background-color: #005677;
+}
+
+.sinpuntos {
+  list-style-type: none;
+}
