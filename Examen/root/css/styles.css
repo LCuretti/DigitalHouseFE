@@ -1,0 +1,479 @@
+/* 0822TDFE1N1C1LAED0822PT */
+
+/****** clases generales ******/
+* {
+  box-sizing: border-box;
+  font-family: "Be Vietnam";
+  /*border: solid 1px red;*/
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-size: 16;
+  font-weight: 500;
+  color: #000000;
+  background-color: #f5f5f5;
+
+  margin: 0;
+  padding: 0;
+}
+
+/****** header ******/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 174px;
+  padding: 65px 165px;
+}
+
+#hlogo {
+  width: 146px;
+  height: 24px;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+header li a {
+  font-size: 13px;
+  font-weight: 500;
+  color: #242e52;
+  height: 23px;
+  padding: 0 14px;
+}
+
+/* Buttons */
+
+.button {
+  font-size: 13px;
+  border-radius: 50px;
+  border: 0px;
+  width: 134px;
+  height: 44px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.lila {
+  background-color: #8b48bf;
+  color: #ffffff;
+}
+.blanco {
+  background-color: #ffffff;
+  color: #8b48bf;
+}
+.sombra {
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+/****** main content ******/
+
+.medio {
+  width: 50%;
+}
+
+/* HOME */
+
+#home {
+  display: flex;
+  justify-content: space-between;
+  padding: 39px 165px;
+}
+
+#home div {
+  height: 525px;
+}
+
+h1 {
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 66px;
+  letter-spacing: -0.035em;
+  color: #232c50;
+  margin: 71px 0 0;
+}
+
+#parrafo-home {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #000000;
+  margin: 28px 200px 28px 0px;
+}
+
+#grafico {
+  height: 100%;
+}
+
+/* SOBRE NOSOTROS */
+
+#nosotros {
+  display: flex;
+  justify-content: space-between;
+  height: 669px;
+  padding: 60px 165px;
+}
+
+#titulo-nosotros {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 41px;
+  color: #232851;
+  margin: 0;
+}
+
+#parrafo-nosotros {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #000000;
+  margin: 36px 200px 0 0;
+}
+
+.titulo {
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  height: 43px;
+  border-radius: 30px 0 0 30px;
+  padding: 0px;
+  margin: 13px 0 7px;
+}
+
+.indice {
+  background-color: #8b48bf;
+  color: #ffffff;
+  border-radius: 30px;
+  height: 43px;
+  width: 69px;
+  padding: 10px 25px;
+  margin-right: 23px;
+}
+
+.tema {
+  color: #323851;
+}
+
+.parrafo {
+  font-size: 16px;
+  line-height: 26px;
+  color: #b3b2b7;
+  margin: 0 25px 35px 92px;
+}
+
+/* TESTIMONIOS */
+
+#testimonios {
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 64px 70px 180px;
+}
+
+#titulo-testimonios {
+  font-size: 39px;
+  font-weight: 700;
+  line-height: 61px;
+  color: #242e53;
+  padding: 0px;
+  margin: 0px;
+}
+
+#articles {
+  display: flex;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+article img {
+  position: relative;
+  top: 70px;
+}
+
+.text {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 433px;
+  height: 219px;
+  margin: 39px 0px 45px;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #3f4868; /*#242E53*/
+  margin: 56px 0 0;
+}
+
+article p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25px;
+  color: #b9b9c1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 138px;
+  padding: 0px 17px;
+  margin: 0px;
+}
+
+/* BANNER */
+
+#banner {
+  display: flex;
+  background-color: #8b48bf;
+  justify-content: space-between;
+  align-items: center;
+  padding: 64px 165px;
+}
+
+#titulo-banner {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #ffffff;
+  width: 460px;
+  padding: 0;
+  margin: 0;
+}
+
+/****** footer ******/
+
+footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  color: #ffffff;
+  background-color: #1e1e26;
+  height: 247px;
+  padding: 53px 165px;
+}
+
+#flogo {
+  width: 145px;
+  height: 26px;
+  margin: 14px 6px;
+}
+
+#iconos {
+  display: flex;
+  justify-content: space-between;
+  width: 154px;
+  margin: 14px 6px;
+}
+.icono {
+  width: 20px;
+  height: 20px;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-between;
+  width: 393px;
+  height: 141px;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  width: 110px;
+  margin: 0 0 9px;
+}
+
+.footer-nav {
+  font-size: 16;
+  font-weight: 400;
+  line-height: 23px;
+  color: white;
+}
+
+form {
+  margin: 3px 0;
+  padding: 0;
+}
+
+input {
+  font-size: 13px;
+  font-weight: 600;
+  color: #a0a0a0;
+  height: 44px;
+  width: 201px;
+  border-radius: 50px;
+  padding: 0;
+}
+
+footer button {
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 50px;
+  border: 0px;
+  width: 63px;
+  height: 42px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+footer p {
+  font-size: 13px;
+  font-weight: 500;
+  color: #8c8c94;
+  text-align: end;
+  width: 273px;
+  margin: 0;
+}
+
+/* RESPONSIVE */
+.fa-bars {
+  display: none;
+}
+
+@media (max-width: 1111px) {
+  /* Aca va el codigo CSS que queiro en mobile */
+
+  .desktop {
+    display: none;
+  }
+
+  header {
+    justify-content: space-between;
+    padding: 59px 37px;
+  }
+
+  .fa-bars {
+    display: block;
+    width: 60px;
+    height: 60px;
+    padding: 0px;
+  }
+
+  .medio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  #home {
+    flex-direction: column;
+    flex-flow: column-reverse;
+    padding: 21px;
+  }
+
+  #home div {
+    height: 410px;
+  }
+
+  h1 {
+    text-align: center;
+    margin: 34px 0 0;
+  }
+
+  #parrafo-home {
+    margin: 28px 40px;
+    text-align: center;
+  }
+
+  #nosotros {
+    flex-direction: column;
+    height: 1001px;
+    padding: 101px 0 0;
+  }
+
+  #titulo-nosotros {
+    text-align: center;
+  }
+
+  #parrafo-nosotros {
+    text-align: center;
+    margin: 36px 60px 90px;
+  }
+
+  .titulo {
+    background: rgba(139, 72, 191, 0.3);
+    margin: 13px 0 0 34px;
+  }
+
+  .parrafo {
+    margin: 31px 28px 17px 44px;
+  }
+
+  #testimonios {
+    padding: 99px 17px 77px;
+  }
+
+  .text {
+    width: 445px;
+  }
+
+  article p {
+    padding: 0px 28px;
+  }
+
+  #banner {
+    flex-direction: column;
+    height: 318px;
+    padding: 37px 80px;
+  }
+
+  #titulo-banner {
+    text-align: center;
+    width: 324px;
+  }
+
+  footer {
+    flex-direction: column-reverse;
+    align-content: center;
+    height: 536px;
+    padding: 50px;
+  }
+
+  input {
+    width: 308px;
+    margin: 0 5px 0 0;
+  }
+
+  footer ul {
+    width: 344px;
+    height: 141px;
+  }
+
+  #iconos {
+    width: 380px;
+    margin: 0;
+  }
+
+  footer p {
+    order: -1;
+    text-align: center;
+  }
+}
+
+/* PSEUDOSELECTORES */
+header a:active {
+  color: rgba(36, 46, 82, 0.6);
+}
+.lila:active {
+  background: rgba(139, 72, 191, 0.7);
+}
